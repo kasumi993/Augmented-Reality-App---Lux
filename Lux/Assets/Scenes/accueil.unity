@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 102812580}
   - component: {fileID: 102812582}
   - component: {fileID: 102812581}
+  - component: {fileID: 102812583}
+  - component: {fileID: 102812584}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -148,11 +150,11 @@ RectTransform:
   m_GameObject: {fileID: 102812579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.005181347, y: 0.0052910056, z: 1}
+  m_LocalScale: {x: 0.005181347, y: 0.005291006, z: 1}
   m_Children: []
   m_Father: {fileID: 6975108514198911900}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.54, y: 0, z: -27.761992}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.27461243, y: -0.20635223}
@@ -195,6 +197,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102812579}
   m_CullTransparentMesh: 0
+--- !u!111 &102812583
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102812579}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: af56432de577613468b36b38eaf9f146, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: af56432de577613468b36b38eaf9f146, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!225 &102812584
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102812579}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &232527007
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +237,7 @@ GameObject:
   - component: {fileID: 232527010}
   - component: {fileID: 232527009}
   - component: {fileID: 232527011}
+  - component: {fileID: 232527012}
   m_Layer: 5
   m_Name: "cage \xE0 photon"
   m_TagString: Untagged
@@ -222,7 +253,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232527007}
   m_LocalRotation: {x: -0, y: -0, z: -0.37042463, w: 0.9288626}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 314840896}
@@ -230,7 +261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -43.484}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 41, y: 212}
+  m_AnchoredPosition: {x: 41.00028, y: 211.99693}
   m_SizeDelta: {x: 523, y: 465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232527009
@@ -289,6 +320,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!225 &232527012
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232527007}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &314840895
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +422,7 @@ GameObject:
   - component: {fileID: 1272412517}
   - component: {fileID: 1272412518}
   - component: {fileID: 1272412519}
+  - component: {fileID: 1272412520}
   m_Layer: 5
   m_Name: arrow
   m_TagString: Untagged
@@ -469,6 +513,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!225 &1272412520
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272412516}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1384164215
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,10 +615,12 @@ GameObject:
   - component: {fileID: 1433754459}
   - component: {fileID: 1433754462}
   - component: {fileID: 1433754461}
-  - component: {fileID: 1433754460}
   - component: {fileID: 1433754464}
   - component: {fileID: 1433754463}
   - component: {fileID: 1433754465}
+  - component: {fileID: 1433754460}
+  - component: {fileID: 1433754466}
+  - component: {fileID: 1433754467}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -632,7 +690,73 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1433754461}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1433754466}
+        m_MethodName: fade
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1272412516}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1433754466}
+        m_MethodName: setScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: presentation
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1433754466}
+        m_MethodName: fade
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1433754458}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1433754466}
+        m_MethodName: fade
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 232527007}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1433754466}
+        m_MethodName: fade
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 102812579}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1433754466}
+        m_MethodName: fade
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1724533006}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1433754461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -719,6 +843,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1433754466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433754458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2e4a33fc1d7c048a3e54c574c82993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTime: 2
+--- !u!225 &1433754467
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433754458}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1434001953
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,6 +962,7 @@ GameObject:
   - component: {fileID: 1724533007}
   - component: {fileID: 1724533009}
   - component: {fileID: 1724533008}
+  - component: {fileID: 1724533010}
   m_Layer: 5
   m_Name: first
   m_TagString: Untagged
@@ -880,6 +1030,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724533006}
   m_CullTransparentMesh: 0
+--- !u!225 &1724533010
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724533006}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1893457795
 GameObject:
   m_ObjectHideFlags: 0
