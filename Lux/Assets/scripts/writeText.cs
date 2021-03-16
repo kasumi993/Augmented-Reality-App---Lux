@@ -25,7 +25,7 @@ public class writeText : MonoBehaviour
         foreach (char c in story) 
 		{
 			txt.text += c;
-			yield return new WaitForSeconds (0.125f);
+			yield return new WaitForSeconds (0.05f);
 		}
     }
 
