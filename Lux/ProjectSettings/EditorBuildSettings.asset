@@ -14,4 +14,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/menuScene.unity
     guid: 328688a44f345dc49840dd781796e0d1
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/Scenes/ScanAr.unity
+    guid: 764d337fb48218f48be07aaf94a3d281
+  - enabled: 1
+    path: Assets/Scenes/IntroDidacticiel.unity
+    guid: d52765a3ad5c89c41a2db18d1205e74f
+  - enabled: 1
+    path: Assets/Scenes/cageAPhoton.unity
+    guid: 0ccd9ca4a494394479c3f79958cf10e8
+  - enabled: 1
+    path: Assets/Scenes/cristaux.unity
+    guid: 2152d9916e98fc244badcbf965dcc2ff
+  - enabled: 1
+    path: Assets/Scenes/fabrication.unity
+    guid: e1da025e93e76814f88cf24d5f76ab53
+  - enabled: 1
+    path: Assets/Scenes/lumiere.unity
+    guid: 621c0d74c80beb94ab9c4d57524fb242
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8d1c1a215917dab4f93212f46da25fa9,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 59bf8a2661abc3440bed2ab0772dd43e,
+      type: 2}

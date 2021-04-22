@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class writeText : MonoBehaviour
 {
-    public float delay=0.1f;
+    public float delay;
     public float startTime=0;
     Text txt;
 	string story;
@@ -25,7 +25,7 @@ public class writeText : MonoBehaviour
         foreach (char c in story) 
 		{
 			txt.text += c;
-			yield return new WaitForSeconds (0.05f);
+			yield return new WaitForSeconds (this.delay);
 		}
     }
 

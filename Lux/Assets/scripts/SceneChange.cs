@@ -9,8 +9,29 @@ public class SceneChange : MonoBehaviour
 
     public float startTime=0;
 
+
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(StaticClass.LastSceneInformation);
+        }
+    }
+
     public void setScene(string sceneName){
+        StaticClass.LastSceneInformation = SceneManager.GetActiveScene().name;
         StartCoroutine(scene(sceneName));   
+    }
+
+    public static class StaticClass
+    {
+        public static string LastSceneInformation { get; set; }
     }
 
     public IEnumerator scene(string name){
