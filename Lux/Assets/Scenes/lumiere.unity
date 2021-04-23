@@ -161,7 +161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 797a049c2d2948849b02cc60fd4842a1, type: 2}
+  m_Texture: {fileID: 8400000, guid: 773778c8ea0129e4fbc4648274ec3a4d, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -193,7 +193,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: 367.76196}
+  m_AnchoredPosition: {x: -31, y: 414}
   m_SizeDelta: {x: 322.5, y: 421.7727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &26868642
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &75959787
 MonoBehaviour:
@@ -460,8 +460,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -111.87}
-  m_SizeDelta: {x: 337.59, y: 115.78}
+  m_AnchoredPosition: {x: 207.72, y: -122.75}
+  m_SizeDelta: {x: 328.33, y: 94.015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &147652574
 GameObject:
@@ -525,8 +525,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -335.9}
-  m_SizeDelta: {x: 400.2525, y: 197.83813}
+  m_AnchoredPosition: {x: 0, y: -303.12888}
+  m_SizeDelta: {x: 400.2525, y: 263.3803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &147652576
 CanvasGroup:
@@ -629,8 +629,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.13, y: -86.782}
-  m_SizeDelta: {x: 343.51, y: 65.603}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.34, y: 134.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156259507
 MonoBehaviour:
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!225 &156259508
 CanvasGroup:
@@ -691,7 +691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "on a d\u2019abord d\xE9fini la lumi\xE8re comme un rayon rectiligne... "
+  m_Text: "On a d\u2019abord d\xE9fini la lumi\xE8re comme un rayon rectiligne... "
 --- !u!222 &156259510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -813,7 +813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!225 &158199250
 CanvasGroup:
@@ -887,8 +887,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -101.02772}
-  m_SizeDelta: {x: 337.59, y: 94.0954}
+  m_AnchoredPosition: {x: 207.72, y: -111.91}
+  m_SizeDelta: {x: 328.33, y: 72.345}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &158199254
 MonoBehaviour:
@@ -1003,7 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &195170950
 MonoBehaviour:
@@ -1156,8 +1156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -108.00001}
-  m_SizeDelta: {x: 343.51, y: 123.52}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.33, y: 134.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &311761997
 GameObject:
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &311761999
 MonoBehaviour:
@@ -1327,7 +1327,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "super! je t\u2019ai appris quelque chose de nouveau! lux est content!"
+  m_Text: "Super! je t\u2019ai appris quelque chose de nouveau! lux est content!"
 --- !u!224 &311762003
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1344,8 +1344,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -111.87}
-  m_SizeDelta: {x: 337.59, y: 115.78}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.33, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &314840895
 GameObject:
@@ -1607,7 +1607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -21.5}
+  m_AnchoredPosition: {x: 82, y: -54}
   m_SizeDelta: {x: 127, y: 43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &457560364
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &469474621
 MonoBehaviour:
@@ -1851,7 +1851,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2e3dcaa4d6fd9534d88a790e1ddaaadc, type: 3}
-    m_FontSize: 18
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1862,8 +1862,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "donc maintenant que je t\u2019ai dit ce que sont les photons, est ce que
-    c\u2019est bien ce que tu pensais?"
+  m_Text: "Maintenant que je t\u2019ai dit ce que sont les photons, est ce que c\u2019est
+    bien ce que tu pensais?"
 --- !u!224 &469474622
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1882,8 +1882,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -103.08}
-  m_SizeDelta: {x: 343.51, y: 113.68}
+  m_AnchoredPosition: {x: 207.72, y: -134.22}
+  m_SizeDelta: {x: 328.33, y: 116.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &511385191
 GameObject:
@@ -2126,7 +2126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &525574994
 MonoBehaviour:
@@ -2239,7 +2239,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2e3dcaa4d6fd9534d88a790e1ddaaadc, type: 3}
-    m_FontSize: 19
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "psst...ses ailes sont bleu \xE0 cause des cristaux photoniques. \ntu peux
+  m_Text: "Psst...ses ailes sont bleu \xE0 cause des cristaux photoniques. \ntu peux
     maintenant retourner sur la page de scan du poster et en apprendre plus sur les
     cristaux photoniques."
 --- !u!224 &525574999
@@ -2269,8 +2269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -111.87}
-  m_SizeDelta: {x: 337.59, y: 115.78}
+  m_AnchoredPosition: {x: 207.72, y: -150.06}
+  m_SizeDelta: {x: 328.33, y: 148.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &571929232
 GameObject:
@@ -2384,7 +2384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &591111683
 MonoBehaviour:
@@ -2609,8 +2609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 221.9, y: -108}
-  m_SizeDelta: {x: 267.1479, y: 64.5255}
+  m_AnchoredPosition: {x: 230.11, y: -153.41}
+  m_SizeDelta: {x: 283.56, y: 114.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!850595691 &610306709
 LightingSettings:
@@ -2712,7 +2712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.50375, y: -21.5}
+  m_AnchoredPosition: {x: -96.50375, y: -54}
   m_SizeDelta: {x: 127, y: 43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &628482640
@@ -2917,8 +2917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.7749, y: 23.878052}
-  m_SizeDelta: {x: 356.7021, y: 42.1247}
+  m_AnchoredPosition: {x: 10.546, y: 34.891}
+  m_SizeDelta: {x: 334.25, y: 42.1247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675110817
 MonoBehaviour:
@@ -3019,7 +3019,7 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 797a049c2d2948849b02cc60fd4842a1, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 199faf9197565af48af48bc2974e03c7, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -3280,7 +3280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &689255550
 MonoBehaviour:
@@ -3416,8 +3416,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Maintenant qu\u2019on sait que la lumi\xE8re c\u2019est un ensemble de
-    petits photons, et si on pouvait les capturer? Pourrait-on contr\xF4ler la lumi\xE8re?
-    ..."
+    petits photons, et si on pouvait les \ncapturer? \nPourrait-on contr\xF4ler la
+    lumi\xE8re? ..."
 --- !u!224 &689255554
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3434,8 +3434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -108.00001}
-  m_SizeDelta: {x: 343.51, y: 123.52}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.33, y: 134.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &702930426
 GameObject:
@@ -3470,7 +3470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &702930428
 MonoBehaviour:
@@ -3622,8 +3622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -108.00001}
-  m_SizeDelta: {x: 343.51, y: 123.52}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.33, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &771212614
 GameObject:
@@ -3658,7 +3658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &771212616
 MonoBehaviour:
@@ -3882,8 +3882,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -108.00001}
-  m_SizeDelta: {x: 343.51, y: 123.52}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.33, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &885343181
 GameObject:
@@ -3918,7 +3918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &885343183
 MonoBehaviour:
@@ -4065,7 +4065,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "se d\xE9placent \xE0 une vitesse ph\xE9nom\xE9nale (300000km/s), 90000
+  m_Text: "...se d\xE9placent \xE0 une vitesse ph\xE9nom\xE9nale (300000km/s), 90000
     fois plus rapide qu\u2019une voiture de course ! "
 --- !u!224 &885343187
 RectTransform:
@@ -4083,8 +4083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -111.87}
-  m_SizeDelta: {x: 337.59, y: 115.78}
+  m_AnchoredPosition: {x: 207.72, y: -150.06}
+  m_SizeDelta: {x: 328.33, y: 148.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &922569962
 GameObject:
@@ -4283,7 +4283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -21.5}
+  m_AnchoredPosition: {x: 79, y: -41}
   m_SizeDelta: {x: 127, y: 43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &950172466
@@ -4587,7 +4587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.003753662, y: 367.76196}
+  m_AnchoredPosition: {x: -2.9199982, y: 406}
   m_SizeDelta: {x: 322.5, y: 421.7727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1021029781
@@ -4660,7 +4660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.003753662, y: 367.76196}
+  m_AnchoredPosition: {x: -2.915, y: 367.76196}
   m_SizeDelta: {x: 322.5, y: 421.7727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1055288059
@@ -4715,7 +4715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &1055288063
 MonoBehaviour:
@@ -4769,8 +4769,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -103.08}
-  m_SizeDelta: {x: 343.51, y: 113.68}
+  m_AnchoredPosition: {x: 207.72, y: -96.80199}
+  m_SizeDelta: {x: 328.33, y: 42.119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1080559545
 GameObject:
@@ -4838,8 +4838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
-  startTime: 1
+  delay: 0.02
+  startTime: 2
 --- !u!225 &1080559548
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4916,8 +4916,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -108.00001}
-  m_SizeDelta: {x: 343.51, y: 123.52}
+  m_AnchoredPosition: {x: 221.9, y: -143.23}
+  m_SizeDelta: {x: 356.7, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092485118
 MonoBehaviour:
@@ -5011,7 +5011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!225 &1092485120
 CanvasGroup:
@@ -5180,7 +5180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &1258213141
 MonoBehaviour:
@@ -5351,7 +5351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mais avec cette d\xE9finition, on arrivait pas \xE0 expliquer pourquoi
+  m_Text: "Mais avec cette d\xE9finition,\non arrivait pas \xE0 expliquer pourquoi
     la lumi\xE8re change de forme lorsqu\u2019elle..."
 --- !u!224 &1258213145
 RectTransform:
@@ -5369,8 +5369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -101.02772}
-  m_SizeDelta: {x: 337.59, y: 94.0954}
+  m_AnchoredPosition: {x: 210.68, y: -143.23}
+  m_SizeDelta: {x: 334.24, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1333116415
 GameObject:
@@ -5409,8 +5409,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.13, y: -86.781}
-  m_SizeDelta: {x: 343.51, y: 65.6044}
+  m_AnchoredPosition: {x: 207.72, y: -143.22998}
+  m_SizeDelta: {x: 328.34, y: 134.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1333116417
 MonoBehaviour:
@@ -5424,7 +5424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!225 &1333116418
 CanvasGroup:
@@ -5471,7 +5471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "et aujourd\u2019hui encore, on ne comprend pas tout \xE0 son sujet!"
+  m_Text: "...et aujourd\u2019hui encore, on ne comprend pas tout \xE0 son sujet!"
 --- !u!222 &1333116420
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5636,7 +5636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 71}
+  m_AnchoredPosition: {x: 0, y: 86.8}
   m_SizeDelta: {x: 50, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383761741
@@ -5710,7 +5710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &1412186229
 MonoBehaviour:
@@ -5863,8 +5863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.12999, y: -108.00001}
-  m_SizeDelta: {x: 343.51, y: 123.52}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.33, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1434001953
 GameObject:
@@ -6019,8 +6019,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -111.87}
-  m_SizeDelta: {x: 337.59, y: 115.78}
+  m_AnchoredPosition: {x: 207.72, y: -150.0592}
+  m_SizeDelta: {x: 328.33, y: 148.6435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459042689
 MonoBehaviour:
@@ -6114,7 +6114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!225 &1459042691
 CanvasGroup:
@@ -6161,8 +6161,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "mais la lumi\xE8re, c\u2019est encore un ensemble de toutes petites particules,
-    invisibles \xE0 l'\u0153il nu qui ..."
+  m_Text: "Mais la lumi\xE8re, c\u2019est encore un ensemble de toutes petites particules,
+    invisibles \xE0 l'\u0153il nu \nqui ..."
 --- !u!222 &1459042693
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6204,7 +6204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &1488247993
 MonoBehaviour:
@@ -6339,7 +6339,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "mais bien sur\u2026"
+  m_Text: "Mais bien sur\u2026"
 --- !u!224 &1488247997
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6356,8 +6356,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -111.87}
-  m_SizeDelta: {x: 337.59, y: 115.78}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.33, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1495107563
 GameObject:
@@ -6392,7 +6392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &1495107565
 MonoBehaviour:
@@ -6545,8 +6545,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -101.02772}
-  m_SizeDelta: {x: 337.59, y: 94.0954}
+  m_AnchoredPosition: {x: 207.72, y: -143.23001}
+  m_SizeDelta: {x: 328.33, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1526673519
 GameObject:
@@ -6587,7 +6587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -110.2749, y: -45.45205}
+  m_AnchoredPosition: {x: -102, y: -65.00002}
   m_SizeDelta: {x: 127, y: 43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1526673522
@@ -6866,7 +6866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.7251, y: -45.45205}
+  m_AnchoredPosition: {x: 75, y: -65}
   m_SizeDelta: {x: 127, y: 43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1634016454
@@ -7067,7 +7067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
-  startTime: 3
+  startTime: 2
 --- !u!225 &1662168450
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -7174,7 +7174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!114 &1674676804
 MonoBehaviour:
@@ -7321,7 +7321,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "c\u2019est la alors que Augustin Fresnel proposa de caract\xE9riser la
+  m_Text: "C\u2019est la alors que Augustin Fresnel proposa de caract\xE9riser la
     lumi\xE8re comme une onde electromagn\xE9tique ..."
 --- !u!224 &1674676808
 RectTransform:
@@ -7339,8 +7339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.09, y: -111.87}
-  m_SizeDelta: {x: 337.59, y: 115.78}
+  m_AnchoredPosition: {x: 210.68, y: -143.23}
+  m_SizeDelta: {x: 334.24, y: 134.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1690694960
 GameObject:
@@ -7459,7 +7459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 797a049c2d2948849b02cc60fd4842a1, type: 2}
+  m_Texture: {fileID: 8400000, guid: 199faf9197565af48af48bc2974e03c7, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -7491,7 +7491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.003753662, y: 367.76196}
+  m_AnchoredPosition: {x: -2.915, y: 406}
   m_SizeDelta: {x: 322.5, y: 421.7727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1794373669
@@ -7616,7 +7616,7 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 797a049c2d2948849b02cc60fd4842a1, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 773778c8ea0129e4fbc4648274ec3a4d, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -7777,7 +7777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.50375, y: -21.5}
+  m_AnchoredPosition: {x: -99.50375, y: -41}
   m_SizeDelta: {x: 127, y: 43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1910629340
@@ -8048,8 +8048,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 210.3, y: -108}
-  m_SizeDelta: {x: 352.02, y: 123.5225}
+  m_AnchoredPosition: {x: 207.72, y: -143.23}
+  m_SizeDelta: {x: 328.34, y: 134.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1986969372
 MonoBehaviour:
@@ -8063,7 +8063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f4db7a693673547a1272aa0fcf83b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.05
+  delay: 0.02
   startTime: 0
 --- !u!225 &1986969373
 CanvasGroup:
