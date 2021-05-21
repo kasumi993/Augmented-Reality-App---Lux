@@ -33,7 +33,13 @@ EditorBuildSettings:
     path: Assets/Scenes/lumiere.unity
     guid: 621c0d74c80beb94ab9c4d57524fb242
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8d1c1a215917dab4f93212f46da25fa9,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cf7c5ab4ac5bed34e869bfb8da37beac,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: fd293e234269f4941957044494c68303,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b483cb16123924d488c5ee130a7c832b,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: baee8549bb21b774a9d3f33f46be9774,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 59bf8a2661abc3440bed2ab0772dd43e,
       type: 2}
