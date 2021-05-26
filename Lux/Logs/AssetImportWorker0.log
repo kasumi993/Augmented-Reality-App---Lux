@@ -118,3 +118,34 @@ Received Import Request.
 Start importing Assets/material/Ampli_photon.mp4 using Guid(35cac3cb284255a4197c36c4d24bd67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25ae7bd730b27fe970f396b0171fe76') in 0.041912 seconds
   Import took 0.079667 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 7.275245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.64 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 8.09 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Jaune\Documents\GitHub\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Jaune\Documents\GitHub\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.799 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 2.40 ms.
+Unloading 2803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 133.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 8.728600 ms (FindLiveObjects: 0.816200 ms CreateObjectMapping: 0.196600 ms MarkObjects: 7.341900 ms  DeleteObjects: 0.371600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
