@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/accueil.unity
     guid: 14b31379ad77cbc44a684217d57fcb94
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/presentation.unity
     guid: ba72fd0d8dc6b264bbcd27f17bf90a73
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/menuScene.unity
     guid: 328688a44f345dc49840dd781796e0d1
   - enabled: 0
@@ -20,12 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroDidacticiel.unity
     guid: d52765a3ad5c89c41a2db18d1205e74f
-  - enabled: 1
-    path: Assets/Scenes/cageAPhoton.unity
-    guid: 0ccd9ca4a494394479c3f79958cf10e8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/cristaux.unity
-    guid: 2152d9916e98fc244badcbf965dcc2ff
+    guid: 48828d742ab259849859d05d6f77f0b6
+  - enabled: 1
+    path: Assets/Scenes/cageAPhoton.unity
+    guid: 8a0ab66ea7f75f444b83675ed4715f01
   - enabled: 1
     path: Assets/Scenes/fabrication.unity
     guid: e1da025e93e76814f88cf24d5f76ab53
