@@ -67,7 +67,6 @@
      <Compile Include="Assets\scripts\arthur\LoadScene.cs" />
      <Compile Include="Assets\scripts\arthur\LoadMainScene.cs" />
      <Compile Include="Assets\scripts\arthur\ActiveUI.cs" />
-     <None Include="Assets\StreamingAssets\HiddenARCore\a7e83a16-3f45-420b-aa5a-cf68c998436d.imgdb-imglist.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
