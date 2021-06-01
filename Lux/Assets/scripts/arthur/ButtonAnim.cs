@@ -10,7 +10,7 @@ public class ButtonAnim : MonoBehaviour
 
     //Position initiale et position du bouton mis en évidence
     public Vector3 positionInit;
-    Vector3 positionTarget;
+    public Vector3 positionTarget;
 
     void Start()
     {
