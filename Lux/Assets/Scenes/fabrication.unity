@@ -9922,8 +9922,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tu peux en observer une derri\xE8re toi. Veux-tu vois une animation les
-    montrant en d\xE9tail ?\r\n"
+  m_Text: "Tu peux observer une salle blanche au RDC du b\xE2timent F7. Veux-tu voir
+    une animation les montrant en d\xE9tail ?\r\n"
 --- !u!222 &2044661353
 CanvasRenderer:
   m_ObjectHideFlags: 0
