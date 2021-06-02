@@ -59,8 +59,10 @@
     <Compile Include="Assets\scripts\backScene.cs" />
     <Compile Include="Assets\scripts\destroy.cs" />
     <Compile Include="Assets\scripts\arthur\OffScreenIndicator\OffScreenIndicatorCore.cs" />
+    <Compile Include="Assets\scripts\arthur\ActiveUI.cs" />
     <Compile Include="Assets\scripts\arthur\UIAnimation.cs" />
     <Compile Include="Assets\scripts\SceneChange.cs" />
+    <Compile Include="Assets\scripts\arthur\IfIsTracking.cs" />
     <Compile Include="Assets\scripts\arthur\ButtonAnim.cs" />
     <Compile Include="Assets\scripts\arthur\OffScreenIndicator\Target.cs" />
     <Compile Include="Assets\scripts\arthur\FaceCamera.cs" />
@@ -75,8 +77,6 @@
     <Compile Include="Assets\scripts\arthur\IsTracking.cs" />
     <Compile Include="Assets\scripts\arthur\SceneLoader.cs" />
     <Compile Include="Assets\scripts\arthur\LoadMainScene.cs" />
-    <Compile Include="Assets\scripts\arthur\ActiveUI.cs" />
-    <Compile Include="Assets\scripts\arthur\IfIsTracking.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
