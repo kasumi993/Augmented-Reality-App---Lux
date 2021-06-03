@@ -47,27 +47,27 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\arthur\OffScreenIndicator\OffScreenIndicator.cs" />
      <Compile Include="Assets\scripts\backScene.cs" />
      <Compile Include="Assets\scripts\destroy.cs" />
      <Compile Include="Assets\scripts\arthur\OffScreenIndicator\OffScreenIndicatorCore.cs" />
+     <Compile Include="Assets\scripts\writeText.cs" />
      <Compile Include="Assets\scripts\arthur\ActiveUI.cs" />
      <Compile Include="Assets\scripts\arthur\UIAnimation.cs" />
      <Compile Include="Assets\scripts\SceneChange.cs" />
-     <Compile Include="Assets\scripts\arthur\IfIsTracking.cs" />
-     <Compile Include="Assets\scripts\arthur\ButtonAnim.cs" />
-     <Compile Include="Assets\scripts\arthur\OffScreenIndicator\Target.cs" />
-     <Compile Include="Assets\scripts\arthur\FaceCamera.cs" />
-     <Compile Include="Assets\scripts\DestroyObject.cs" />
-     <Compile Include="Assets\scripts\arthur\SwipeRotate.cs" />
-     <Compile Include="Assets\scripts\arthur\OffScreenIndicator\OffScreenIndicator.cs" />
-     <Compile Include="Assets\scripts\writeText.cs" />
      <Compile Include="Assets\scripts\arthur\OffScreenIndicator\ArrowObjectPool.cs" />
      <Compile Include="Assets\scripts\arthur\OffScreenIndicator\BoxObjectPool.cs" />
+     <Compile Include="Assets\scripts\arthur\IfIsTracking.cs" />
      <Compile Include="Assets\scripts\arthur\OffScreenIndicator\Indicator.cs" />
+     <Compile Include="Assets\scripts\arthur\ButtonAnim.cs" />
+     <Compile Include="Assets\scripts\arthur\OffScreenIndicator\Target.cs" />
      <Compile Include="Assets\scripts\arthur\Opacity.cs" />
+     <Compile Include="Assets\scripts\arthur\FaceCamera.cs" />
      <Compile Include="Assets\scripts\arthur\IsTracking.cs" />
      <Compile Include="Assets\scripts\arthur\SceneLoader.cs" />
      <Compile Include="Assets\scripts\arthur\LoadMainScene.cs" />
+     <Compile Include="Assets\scripts\DestroyObject.cs" />
+     <Compile Include="Assets\scripts\arthur\SwipeRotate.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -626,6 +626,9 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.ARKit">
+ <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -634,9 +637,6 @@
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.WindowsMixedReality">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -659,11 +659,14 @@
  <Reference Include="Unity.XR.ARCore.Editor">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <Reference Include="Unity.XR.ARKit.Editor">
+ <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -680,26 +683,14 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.InteractionSubsystems">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.MagicLeap">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/UnityEngine.XR.MagicLeap.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.WindowsMixedReality.Editor">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Editor">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.MagicLeap">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/UnityEditor.XR.MagicLeap.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -719,23 +710,17 @@
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Mathematics.Editor">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.XR.Management">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARCore">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Oculus.Editor">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Oculus">
- <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation.Editor">
  <HintPath>E:/khady_inf/kasumi/mes_projets/unity/Lux/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>

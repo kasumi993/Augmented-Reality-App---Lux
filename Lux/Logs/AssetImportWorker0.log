@@ -15,12 +15,12 @@ E:/khady_inf/kasumi/mes_projets/unity/Lux
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52301
+57943
 Successfully changed project path to: E:/khady_inf/kasumi/mes_projets/unity/Lux
 E:/khady_inf/kasumi/mes_projets/unity/Lux
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 229.23 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 24.35 ms.
+Refreshing native plugins compatible for Editor in 103.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/khady_inf/kasumi/mes_projets/unity/Lux/Assets
@@ -36,195 +36,223 @@ Initialize mono
 Mono path[0] = 'C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Unity 2019.4.20f1 (64-bit)/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005766 seconds.
+Registered in 0.003061 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 143.23 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.26 ms.
+Refreshing native plugins compatible for Editor in 68.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.243 seconds
+- Completed reload, in  2.549 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.022739 seconds.
+Registered in 0.001882 seconds.
 Begin MonoManager ReloadAssembly
+Error: Could not load signature of IsTracking:UpdateInfo due to: Could not load file or assembly 'Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of IsTracking:UpdateInfo due to: Could not load file or assembly 'Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of IsTracking:OnTrackedImagesChanged due to: Could not load file or assembly 'Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp.dll, this assembly can cause crashes in the runtime
+
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 151.83 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.27 ms.
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: C:/Users/arthu/OneDrive/Documents/PE2_app/Lux/Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
+Refreshing native plugins compatible for Editor in 63.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.007 seconds
+- Completed reload, in  1.363 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.23 ms.
-Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.6 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.9 MB.
+System memory in use after: 130.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3367.
-Total: 5.502500 ms (FindLiveObjects: 0.568400 ms CreateObjectMapping: 0.331100 ms MarkObjects: 4.525700 ms  DeleteObjects: 0.074100 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 5.13 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.5 MB.
-System memory in use after: 75.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3367.
-Total: 13.931000 ms (FindLiveObjects: 0.688900 ms CreateObjectMapping: 1.082200 ms MarkObjects: 11.161900 ms  DeleteObjects: 0.995100 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3110.
+Total: 3.354900 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.237900 ms MarkObjects: 2.733600 ms  DeleteObjects: 0.029600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/lumiere.unity
-  artifactKey: Guid(621c0d74c80beb94ab9c4d57524fb242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lumiere.unity using Guid(621c0d74c80beb94ab9c4d57524fb242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99699c103182dfcf240d55e382651892') in 0.039810 seconds
-  Import took 0.052835 seconds .
+  path: Assets/Scenes/accueil.unity
+  artifactKey: Guid(14b31379ad77cbc44a684217d57fcb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/accueil.unity using Guid(14b31379ad77cbc44a684217d57fcb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808d1d3470dd01084db3138696e5ab85') in 0.029934 seconds
+  Import took 0.037792 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 77.768090 seconds.
-  path: Assets/Scenes/lumiere 1.unity
-  artifactKey: Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lumiere 1.unity using Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0099b4fc658998557742af1de0db680') in 0.043643 seconds
-  Import took 0.054489 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017083 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: C:/Users/arthu/OneDrive/Documents/PE2_app/Lux/Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.231 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
-Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3371.
-Total: 5.749200 ms (FindLiveObjects: 0.525400 ms CreateObjectMapping: 0.330800 ms MarkObjects: 4.808200 ms  DeleteObjects: 0.081600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 834.715917 seconds.
-  path: Assets/Scenes/fabrication.unity
-  artifactKey: Guid(e1da025e93e76814f88cf24d5f76ab53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/fabrication.unity using Guid(e1da025e93e76814f88cf24d5f76ab53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9be62a3da92e823618733e0814a5c5') in 0.042948 seconds
-  Import took 0.057171 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018863 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.26 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: C:/Users/arthu/OneDrive/Documents/PE2_app/Lux/Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.444 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.23 ms.
-Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3375.
-Total: 4.974300 ms (FindLiveObjects: 0.415300 ms CreateObjectMapping: 0.214400 ms MarkObjects: 4.260800 ms  DeleteObjects: 0.081000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 11.292982 seconds.
-  path: Assets/Scenes/lumiere 1.unity
-  artifactKey: Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lumiere 1.unity using Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e8f2006f6970bc1e0a6ef49d3c42b6') in 0.024855 seconds
-  Import took 0.062228 seconds .
+  Time since last request: 49.129016 seconds.
+  path: Assets/Scenes/accueilSettings.lighting
+  artifactKey: Guid(e5368cb48f4f3f54cbeb6dcccb556a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/accueilSettings.lighting using Guid(e5368cb48f4f3f54cbeb6dcccb556a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7fe22a44546afd73f63b6132b19c8e') in 0.056852 seconds
+  Import took 0.063908 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.884370 seconds.
-  path: Assets/Scenes/fabrication.unity
-  artifactKey: Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/fabrication.unity using Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb80316f1fff47903e7b6153c85878f5') in 0.013414 seconds
-  Import took 0.027938 seconds .
+  Time since last request: 0.001969 seconds.
+  path: Assets/Scenes/accueilSettings.lighting
+  artifactKey: Guid(e5368cb48f4f3f54cbeb6dcccb556a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/accueilSettings.lighting using Guid(e5368cb48f4f3f54cbeb6dcccb556a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7fe22a44546afd73f63b6132b19c8e') in 0.007421 seconds
+  Import took 0.015180 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.649984 seconds.
-  path: Assets/Scenes/fabrication.unity
-  artifactKey: Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/fabrication.unity using Guid(153ebb8937dc1ea458f2081572e2ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efc0440018cb331264015daaa3850f4') in 0.017858 seconds
-  Import took 0.033376 seconds .
+  Time since last request: 14.204970 seconds.
+  path: Assets/Scenes/accueil.unity
+  artifactKey: Guid(14b31379ad77cbc44a684217d57fcb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/accueil.unity using Guid(14b31379ad77cbc44a684217d57fcb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291cd001f8ec7f9c49d0a8dedf91eb68') in 0.012608 seconds
+  Import took 0.023364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.325145 seconds.
+  path: Assets/Scenes/presentation.unity
+  artifactKey: Guid(ba72fd0d8dc6b264bbcd27f17bf90a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/presentation.unity using Guid(ba72fd0d8dc6b264bbcd27f17bf90a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c031876e8a1d62d8f7ffe36ec363d2e') in 0.015962 seconds
+  Import took 0.028209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010312 seconds.
+  path: Assets/Scenes/presentation.unity
+  artifactKey: Guid(ba72fd0d8dc6b264bbcd27f17bf90a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/presentation.unity using Guid(ba72fd0d8dc6b264bbcd27f17bf90a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c031876e8a1d62d8f7ffe36ec363d2e') in 0.004300 seconds
+  Import took 0.016241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.404101 seconds.
+  path: Assets/Scenes/IntroDidacticiel.unity
+  artifactKey: Guid(d52765a3ad5c89c41a2db18d1205e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IntroDidacticiel.unity using Guid(d52765a3ad5c89c41a2db18d1205e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec63cc5d18f2418c96f6ed065ae109') in 0.021065 seconds
+  Import took 0.029767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006715 seconds.
+  path: Assets/Scenes/IntroDidacticiel.unity
+  artifactKey: Guid(d52765a3ad5c89c41a2db18d1205e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IntroDidacticiel.unity using Guid(d52765a3ad5c89c41a2db18d1205e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec63cc5d18f2418c96f6ed065ae109') in 0.005055 seconds
+  Import took 0.014938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.737995 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(db6fa5721ea0fc34f8a91a556e4bc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(db6fa5721ea0fc34f8a91a556e4bc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90ff4577f345153c5ad3461844295a9') in 0.016758 seconds
+  Import took 0.025403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001321 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(db6fa5721ea0fc34f8a91a556e4bc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(db6fa5721ea0fc34f8a91a556e4bc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90ff4577f345153c5ad3461844295a9') in 0.004723 seconds
+  Import took 0.014588 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007616 seconds.
+Registered in 0.001736 seconds.
+Could not load signature of IsTracking:UpdateInfo due to: Could not load file or assembly 'Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of IsTracking:OnTrackedImagesChanged due to: Could not load file or assembly 'Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\arthu\OneDrive\Documents\PE2_app\Lux\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: C:/Users/arthu/OneDrive/Documents/PE2_app/Lux/Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.278 seconds
+- Completed reload, in  1.156 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.22 ms.
-Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.3 MB.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.9 MB.
+System memory in use after: 127.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3379.
-Total: 3.586900 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.219400 ms MarkObjects: 2.960000 ms  DeleteObjects: 0.049700 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 3.053300 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.126900 ms MarkObjects: 2.609100 ms  DeleteObjects: 0.022900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2715 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.4 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3251.
+Total: 4.954900 ms (FindLiveObjects: 0.643700 ms CreateObjectMapping: 0.562000 ms MarkObjects: 3.691400 ms  DeleteObjects: 0.056000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3251.
+Total: 4.101000 ms (FindLiveObjects: 1.289900 ms CreateObjectMapping: 0.355400 ms MarkObjects: 2.405100 ms  DeleteObjects: 0.048400 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3251.
+Total: 8.811000 ms (FindLiveObjects: 1.658500 ms CreateObjectMapping: 0.457600 ms MarkObjects: 6.586900 ms  DeleteObjects: 0.104900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1007.474555 seconds.
+  path: Assets/material/194316935_1188844608253505_585347081840977628_n.png
+  artifactKey: Guid(e8403ef298189ff46813151226eb596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/material/194316935_1188844608253505_585347081840977628_n.png using Guid(e8403ef298189ff46813151226eb596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b03ea73164a5823f0e65037abc56e1') in 0.207910 seconds
+  Import took 0.225539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.817835 seconds.
+  path: Assets/material/194316935_1188844608253505_585347081840977628_n.png
+  artifactKey: Guid(e8403ef298189ff46813151226eb596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/material/194316935_1188844608253505_585347081840977628_n.png using Guid(e8403ef298189ff46813151226eb596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18092b9955b8c899aef20afd98c1623') in 0.104546 seconds
+  Import took 0.111084 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.9 MB.
+System memory in use after: 78.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3258.
+Total: 11.025800 ms (FindLiveObjects: 0.713300 ms CreateObjectMapping: 0.419700 ms MarkObjects: 9.844000 ms  DeleteObjects: 0.046200 ms)
+
