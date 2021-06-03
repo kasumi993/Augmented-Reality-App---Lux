@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/cageAPhoton.unity
+- path: Assets/Scenes/lumiere.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

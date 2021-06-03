@@ -1,4 +1,0 @@
-#Thu Jun 03 02:09:47 CEST 2021
-base.0=E\:\\khady_inf\\kasumi\\mes_projets\\unity\\Lux\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
