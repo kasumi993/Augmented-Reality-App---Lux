@@ -10,6 +10,7 @@ public class writeText : MonoBehaviour
     bool play=true;
     Text txt;
 	string fullText;
+    
     // fullText.text = fullText.text.Replace("B", "<color=#ffffffxx>B</color>");
 
     // Start is called before the first frame update
@@ -19,6 +20,8 @@ public class writeText : MonoBehaviour
 		fullText = txt.text;
 		txt.text = "";
         StartCoroutine(ShowText());
+        
+       
     }
 
     IEnumerator ShowText(){
@@ -30,6 +33,9 @@ public class writeText : MonoBehaviour
 			    yield return new WaitForSeconds (this.delay);
             }
 		}
+        Destroy (this.transform.GetChild(0).gameObject);
+        Debug.Log(this.transform.GetChild(0).gameObject + "has been destroyed.");
+
     }
 
     public void stop(){

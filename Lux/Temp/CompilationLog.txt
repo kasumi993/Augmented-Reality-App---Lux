@@ -1,6 +1,0 @@
-# Starting compiling Unity.XR.ARFoundation.dll
-C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-d1abbea43c0e3ae48afb616fa158b5a5
-# Starting compiling Unity.XR.ARFoundation.Editor.dll
-C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-fd8c916fc4d207a4ea5aae2411c71d5b
-# Starting compiling Assembly-CSharp.dll
-C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-9420a5210c27b174d9b7eae4b8be1637
