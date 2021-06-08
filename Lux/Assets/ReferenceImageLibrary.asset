@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 4934501404704505079
       m_GuidHigh: 7851654114021105585
     m_SerializedTextureGuid:
-      m_GuidLow: 6346973666077383106
-      m_GuidHigh: 3522874771691107355
-    m_Size: {x: 0.594, y: 0.8397807}
+      m_GuidLow: 13102119637677960849
+      m_GuidHigh: 6918627156020888891
+    m_Size: {x: 0.594, y: 0.8397436}
     m_SpecifySize: 1
     m_Name: 2emeposter - Copie
-    m_Texture: {fileID: 2800000, guid: ed4d19c2faeb58141b74d59af0c3e330, type: 3}
+    m_Texture: {fileID: 2800000, guid: 7876ee911464b5d43b05ffefbde60360, type: 3}
